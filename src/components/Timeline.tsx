@@ -35,7 +35,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
             <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Frontend Development, Backend Development, User Education, Team Leading
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -47,7 +47,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
             <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Full-stack Development, API Development, User Education
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

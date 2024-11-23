@@ -52,8 +52,13 @@
 .about-section .image-wrapper {
     z-index: 2;
     img {
-        width: 150px;
+        // width: 150px;
+        // border-radius: 50%;
+
+        width: 200px;
+        height: 200px;
         border-radius: 50%;
+        object-fit: cover;
     }
 }
 
