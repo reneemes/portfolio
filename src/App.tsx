@@ -4,9 +4,9 @@ import {
   Timeline,
   Education,
   Project,
-  Contact,
+//   Contact,
   Navigation,
-  Footer,
+  Footer
 } from "./components";
 import FadeIn from './components/FadeIn';
 import './index.scss';
