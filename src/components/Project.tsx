@@ -9,22 +9,63 @@ import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
+import dtrh from '../assets/images/down-the-rabbit-hole.png';
+import rancid from '../assets/images/rancid.png';
 import '../assets/styles/Project.scss';
 
+import Chip from '@mui/material/Chip';
+
 function Project() {
+
+    const labelsFirst = [
+        "React",
+        "React Router",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Cypress",
+        "Ruby on Rails",
+        "RSpec",
+        "SimpleCov",
+        "Webmock & VCR"
+    ];
+
+
+    const labelsSecond = [
+        "React",
+        "React Router",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Cypress"
+    ];
+
     return(
     <div className="projects-container" id="projects">
         <h1>Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://down-the-rabbit-hole.netlify.app/" target="_blank" rel="noreferrer"><img src={dtrh} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://down-the-rabbit-hole.netlify.app/" target="_blank" rel="noreferrer"><h2>Down the Rabbit Hole</h2></a>
+                <p>Designed and developeed a full stack educational web application intended to immerse users in the fascinating world of animals and their ecosystems.</p>
+                <div className="flex-chips">
+                    <span className="chip-title">Tech:</span>
+                    {labelsFirst.map((label, index) => (
+                        <Chip key={index} className='chip' label={label} />
+                    ))}
+                </div>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://rancid-tomatillos-ecru.vercel.app" target="_blank" rel="noreferrer"><img src={rancid} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://rancid-tomatillos-ecru.vercel.app" target="_blank" rel="noreferrer"><h2>Rancid Tomatillos</h2></a>
+                <p>Developed an application which allows users to browse and vote on a collection of movies, with features like live search, movie details, and real-time vote updates.</p>
+                
+                <div className="flex-chips">
+                    <span className="chip-title">Tech:</span>
+                    {labelsSecond.map((label, index) => (
+                        <Chip key={index} className='chip' label={label} />
+                    ))}
+                </div>
             </div>
             {/* <div className="project">
                 <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>

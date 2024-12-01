@@ -31,9 +31,9 @@ import '../assets/styles/Education.scss';
 //     "Selenium",
 // ];
 
-const labelsSecond = [
-    "4.0"
-];
+// const labelsSecond = [
+//     "4.0"
+// ];
 
 // const labelsThird = [
 //     "OpenAI",
@@ -72,12 +72,12 @@ function Education() {
                     <p>Hands-on training in Unmanned Aerial Systems, Unmanned Grounds Systems, Unmanned Maritime Systems and their associated environments</p>
                     <p>Onderstanding of hazardous operations, government regulations, surveillance, data collection, and the engineering aspects of Unmanned Systems</p>
                     {/* <p>GPA: 4.0</p> */}
-                    <div className="flex-chips">
+                    {/* <div className="flex-chips">
                         <span className="chip-title">GPA:</span>
                         {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* <div className="skill">
