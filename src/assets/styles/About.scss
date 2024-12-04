@@ -1,0 +1,33 @@
+.about-container {
+  padding: 5% 10% 0 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  h1 {
+    font-size: xx-large;
+  }
+}
+
+.about-container .about-me {
+  align-items: center;
+  text-align: left;
+}
+
+@media screen {
+  @media (max-width: 768px) {
+      .about-container {
+          display: block;
+          padding-left: 5%;
+          padding-right: 5%;
+      }
+  
+      .about-container .about-me {
+          display: initial;
+      }
+      
+      .about-container .about-me {
+          padding-bottom: 5%;
+      }
+  }
+}

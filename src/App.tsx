@@ -12,6 +12,7 @@ import FadeIn from './components/FadeIn';
 import './index.scss';
 // import Education from "./components/Education";
 import Skills from './components/Skills'
+import About from './components/About'
 
 function App() {
     const [mode, setMode] = useState<string>('light');
@@ -33,6 +34,7 @@ function App() {
         <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
         <FadeIn transitionDuration={700}>
             <Main/>
+            <About />
             <Education/>
             <Timeline/>
             <Project/>
