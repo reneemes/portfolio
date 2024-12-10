@@ -14,6 +14,20 @@
   text-align: left;
 }
 
+.email-section,
+.location-section {
+  display: flex;
+  align-items: center;
+  svg {
+    font-size: 4vh;
+  }
+}
+
+.email,
+.location {
+  padding-left: 1vw;
+}
+
 @media screen {
   @media (max-width: 768px) {
       .about-container {
