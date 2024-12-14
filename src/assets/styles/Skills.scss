@@ -28,3 +28,20 @@
   height: 10vh;
   margin: 5px;
 }
+
+@media screen {
+  @media (max-width:1024px) {
+    .skills-section .skills {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 50px;
+    }
+
+    .frameworks img,
+    .tools img,
+    .languages img {
+      height: 6vh;
+      margin: 5px;
+    }
+  }
+}
