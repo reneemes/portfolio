@@ -16,7 +16,6 @@ code {
 .main-container {
   position: relative;
   background-color: #0d1116;
-
 }
 
 a {
@@ -92,6 +91,18 @@ p, a, h1, h2, h3, h4, h5, label, button {
   justify-content: center;
 }
 
+.resume {
+  background: none;
+  border: none;
+  height: 43px;
+  border-radius: 4px;
+}
+
+.resume:hover {
+  background-color: #0e151e;
+  cursor: pointer;
+}
+
 .light-mode {
   background-color: #f8f9fa;
 
@@ -114,8 +125,6 @@ p, a, h1, h2, h3, h4, h5, label, button {
 
   .about-section {
     background-image: url("./assets/images/bg-light.png");
-    // background-image: url("./assets/images/abstract-blue.jpg");
-    // background-image: url("./assets/images/blue-white.jpg");
   }
 
   .skills-container svg {
@@ -145,6 +154,12 @@ p, a, h1, h2, h3, h4, h5, label, button {
 
   .flex-chips .chip-title {
     color: #0d1116;
+  }
+
+  .resume:hover {
+    background-color: #eff4f8;
+    color: black;
+    cursor: pointer;
   }
 }
 

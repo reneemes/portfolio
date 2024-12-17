@@ -16,9 +16,11 @@ import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 
+import resume from '../assets/Resume.pdf'
+
 const drawerWidth = 240;
-// const navItems = [['Education', 'education'], ['History', 'history'], ['Projects', 'projects'], ['Contact', 'contact']];
-const navItems = [['Education', 'education'], ['History', 'history'], ['Projects', 'projects'], ['Skills', 'skills']];
+const navItems = [['About Me', 'about'], ['Education', 'education'], ['History', 'history'], ['Projects', 'projects'], ['Skills', 'skills']];
+// const navItems = [["Resume", "resume"], ['About Me', 'about'], ['Education', 'education'], ['History', 'history'], ['Projects', 'projects'], ['Skills', 'skills']];
 
 function Navigation({parentToChild, modeChange}: any) {
 
@@ -94,6 +96,7 @@ function Navigation({parentToChild, modeChange}: any) {
             <DarkModeIcon onClick={() => modeChange()}/>
           )}
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+          <Button className='resume' onClick={() => window.open(resume, '_blank')}>Resume</Button>
             {navItems.map((item) => (
               <Button key={item[0]} onClick={() => scrollToSection(item[1])} sx={{ color: '#fff' }}>
                 {item[0]}
