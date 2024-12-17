@@ -16,6 +16,8 @@ import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 
+import resume from '../assets/Resume.pdf'
+
 const drawerWidth = 240;
 const navItems = [['About Me', 'about'], ['Education', 'education'], ['History', 'history'], ['Projects', 'projects'], ['Skills', 'skills']];
 // const navItems = [["Resume", "resume"], ['About Me', 'about'], ['Education', 'education'], ['History', 'history'], ['Projects', 'projects'], ['Skills', 'skills']];
@@ -94,8 +96,7 @@ function Navigation({parentToChild, modeChange}: any) {
             <DarkModeIcon onClick={() => modeChange()}/>
           )}
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-          {/* <Button className='resume' href='https://docs.google.com/document/d/1IOoo4qBAM4wdFKCn9xlwdF6J7FUqsmglwWgH_QWBR0w/edit?usp=sharing'>Resume</Button> */}
-          <Button className='resume'>Resume</Button>
+          <button className='resume' onClick={() => window.open(resume, '_blank')}>Resume</button>
             {navItems.map((item) => (
               <Button key={item[0]} onClick={() => scrollToSection(item[1])} sx={{ color: '#fff' }}>
                 {item[0]}
