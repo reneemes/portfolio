@@ -96,7 +96,7 @@ function Navigation({parentToChild, modeChange}: any) {
             <DarkModeIcon onClick={() => modeChange()}/>
           )}
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-          <button className='resume' onClick={() => window.open(resume, '_blank')}>Resume</button>
+          <Button className='resume' onClick={() => window.open(resume, '_blank')}>Resume</Button>
             {navItems.map((item) => (
               <Button key={item[0]} onClick={() => scrollToSection(item[1])} sx={{ color: '#fff' }}>
                 {item[0]}
