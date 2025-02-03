@@ -10,7 +10,7 @@ function Education() {
             <div className="skills-grid">
                 <div className="skill">
                     <h3>Turing School of Software & Design</h3>
-                    <p>Proficient in HTML, CSS, JavaScript, React, Ruby, and Rails</p>
+                    <p>Proficient in HTML, CSS, JavaScript, React, Angular, Ruby, and Rails</p>
                     <p>Hands-on experience through building projects, daily lessons, and professional development activities</p>
                     <p>Experience creating dynamic and responsive web applications</p>
                 </div>

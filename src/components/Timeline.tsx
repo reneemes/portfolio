@@ -17,7 +17,8 @@ function Timeline() {
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="2023 - 2024"
-            iconStyle={{ background: '#ADD8E6', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#a1bafe', color: 'rgb(39, 40, 34)' }}
+            // iconStyle={{ background: '#ADD8E6', color: 'rgb(39, 40, 34)' }}
             // iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -34,7 +35,8 @@ function Timeline() {
             className="vertical-timeline-element--work"
             date="2021 - 2023"
             // iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            iconStyle={{ background: '#ADD8E6', color: 'rgb(39, 40, 34)' }}
+            // iconStyle={{ background: '#ADD8E6', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#a1bafe', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Commercial Drone Operator</h3>
@@ -50,7 +52,8 @@ function Timeline() {
             className="vertical-timeline-element--work"
             date="2018 - 2021"
             // iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            iconStyle={{ background: '#ADD8E6', color: 'rgb(39, 40, 34)' }}
+            // iconStyle={{ background: '#ADD8E6', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#a1bafe', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Communications Specialist / Assistant Supervisor of Operations</h3>
