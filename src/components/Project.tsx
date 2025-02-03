@@ -62,7 +62,7 @@ function Project() {
 			<div className="projects-grid">
 				<div className="project">
 					<a href="https://github.com/reneemes/yoga-flow-fe" target="_blank" rel="noreferrer"><img src={YogaFlow} className="zoom" alt="thumbnail" width="100%"/></a>
-					<a href="https://github.com/reneemes/yoga-flow-fe" target="_blank" rel="noreferrer"><h2>YogaFlow</h2></a>
+					<a href="https://github.com/reneemes/yoga-flow-fe" target="_blank" rel="noreferrer"><h2>YogaFlow (Work In Progress)</h2></a>
 					<p>YogaFlow is a web application where users can explore, create, and track personalized yoga routines. 
 						The app combines the benefits of a guided yoga practice with flexibility, offering curated routines for all levels.</p>
 					<div className="flex-chips">
