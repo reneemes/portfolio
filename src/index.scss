@@ -91,17 +91,18 @@ p, a, h1, h2, h3, h4, h5, label, button {
   justify-content: center;
 }
 
-.resume {
-  background: none;
-  border: none;
-  height: 43px;
-  border-radius: 4px;
-}
+// .resume {
+  // background: none;
+  // border: none;
+  // height: 43px;
+  // border-radius: 4px;
+  // color: white !important;
+// }
 
-.resume:hover {
-  background-color: #0e151e;
-  cursor: pointer;
-}
+// .resume:hover {
+//   background-color: #0e151e;
+//   cursor: pointer;
+// }
 
 .light-mode {
   background-color: #f8f9fa;
@@ -156,11 +157,11 @@ p, a, h1, h2, h3, h4, h5, label, button {
     color: #0d1116;
   }
 
-  .resume:hover {
-    background-color: #eff4f8;
-    color: black;
-    cursor: pointer;
-  }
+  // .resume:hover {
+  //   background-color: #eff4f8;
+  //   color: black !important;
+  //   cursor: pointer;
+  // }
 }
 
 @media screen {
