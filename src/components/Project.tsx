@@ -3,11 +3,9 @@ import dtrh from '../assets/images/down-the-rabbit-hole.png';
 import rancid from '../assets/images/rancid.png';
 import tracker from '../assets/images/tracker.png'
 import '../assets/styles/Project.scss';
-
 import Chip from '@mui/material/Chip';
 
 function Project() {
-
     const labelsFirst = [
         "React",
         "React Router",
@@ -62,7 +60,7 @@ function Project() {
             <div className="project">
                 <a href="https://down-the-rabbit-hole.netlify.app/" target="_blank" rel="noreferrer"><img src={dtrh} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://down-the-rabbit-hole.netlify.app/" target="_blank" rel="noreferrer"><h2>Down the Rabbit Hole</h2></a>
-                <p>Designed and developeed a full stack educational web application intended to immerse users in the fascinating world of animals and their ecosystems.</p>
+                <p>Designed and developed a full stack educational web application intended to immerse users in the fascinating world of animals and their ecosystems.</p>
                 <div className="flex-chips">
                     <span className="chip-title">Tech:</span>
                     {labelsFirst.map((label, index) => (

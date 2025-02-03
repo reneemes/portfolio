@@ -19,7 +19,7 @@ function About() {
         </div>
         <div className='location-section'>
           <LocationOnIcon />
-          <p className='location'>Prefered Location: Charlotte, NC</p>
+          <p className='location'>Preferred Location: Charlotte, NC</p>
         </div>
       </div>
     </section>

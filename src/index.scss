@@ -39,6 +39,7 @@ p, a, h1, h2, h3, h4, h5, label, button {
   button {
     font-size: 1.1rem;
     font-family: "Lato", sans-serif;
+    color: white;
     text-transform: initial;
     padding: 6px 10px;
   }
@@ -90,19 +91,6 @@ p, a, h1, h2, h3, h4, h5, label, button {
   flex-direction: column;
   justify-content: center;
 }
-
-// .resume {
-  // background: none;
-  // border: none;
-  // height: 43px;
-  // border-radius: 4px;
-  // color: white !important;
-// }
-
-// .resume:hover {
-//   background-color: #0e151e;
-//   cursor: pointer;
-// }
 
 .light-mode {
   background-color: #f8f9fa;
@@ -156,12 +144,6 @@ p, a, h1, h2, h3, h4, h5, label, button {
   .flex-chips .chip-title {
     color: #0d1116;
   }
-
-  // .resume:hover {
-  //   background-color: #eff4f8;
-  //   color: black !important;
-  //   cursor: pointer;
-  // }
 }
 
 @media screen {

@@ -20,7 +20,6 @@ import resume from '../assets/Resume.pdf'
 
 const drawerWidth = 240;
 const navItems = [['About Me', 'about'], ['Education', 'education'], ['History', 'history'], ['Projects', 'projects'], ['Skills', 'skills']];
-// const navItems = [["Resume", "resume"], ['About Me', 'about'], ['Education', 'education'], ['History', 'history'], ['Projects', 'projects'], ['Skills', 'skills']];
 
 function Navigation({parentToChild, modeChange}: any) {
 
@@ -54,7 +53,7 @@ function Navigation({parentToChild, modeChange}: any) {
     const educationElement = document.getElementById(section);
     if (educationElement) {
       educationElement.scrollIntoView({ behavior: 'smooth' });
-      console.log('Scrolling to:', educationElement);  // Debugging: Ensure the element is found
+      // console.log('Scrolling to:', educationElement);  // Debugging: Ensure the element is found
     } else {
       console.error('Element with id "Education" not found');  // Debugging: Log error if element is not found
     }
@@ -72,6 +71,9 @@ function Navigation({parentToChild, modeChange}: any) {
             </ListItemButton>
           </ListItem>
         ))}
+        <ListItemButton className='resume' sx={{ textAlign: 'center' }} onClick={() => window.open(resume, '_blank')}>
+          <ListItemText>Resume</ListItemText>
+        </ListItemButton>
       </List>
     </Box>
   );
