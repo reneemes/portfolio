@@ -16,7 +16,7 @@ import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 
-import resume from '../assets/Resume.pdf'
+import resume from '../assets/ReneeMessersmith_Resume.pdf'
 
 const drawerWidth = 240;
 const navItems = [['About Me', 'about'], ['Education', 'education'], ['History', 'history'], ['Projects', 'projects'], ['Skills', 'skills']];
